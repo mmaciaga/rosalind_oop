@@ -2,8 +2,6 @@
 
 #include <fstream>
 
-#include "dna.h"
-
 pair<string, string> hamming::store_seqs(const string& path) {
     ifstream file(path);
     getline(file, dna1);
