@@ -1,5 +1,4 @@
 #include "fibonacci.h"
-
 #include <iostream>
 
 void fibonacci::store_int(const string& path, int& n, int& k) {
