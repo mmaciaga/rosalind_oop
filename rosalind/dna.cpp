@@ -6,7 +6,6 @@ using namespace std;
 
 string dna::transcription() {
     string rna;
-    rna.reserve(seq.size());
 
     for (string::const_iterator it = seq.begin(); it != seq.end(); it++) {
         switch (*it) {
