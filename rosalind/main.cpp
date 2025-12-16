@@ -11,5 +11,6 @@ int main() {
     s.mrna();
     s.fib();
     s.dead_rabbits();
+    s.protein_mass();
     return 0;
 }

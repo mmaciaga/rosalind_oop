@@ -5,10 +5,10 @@
 #include <map>
 using namespace std;
 
-class prot_mass: public translation {
+class proteinMass: public translation {
     public:
-        unordered_map<char, double> mass_table;
-        explicit prot_mass(const string& path): translation(path) {
+        unordered_map<char, long double> mass_table;
+        explicit proteinMass(const string& path): translation(path) {
             mass_table = {
                 {'F', 147.06841}, {'L', 113.08406}, {'I', 113.08406}, {'M', 131.04049},
                 {'V', 99.06841}, {'S', 87.03203}, {'P', 97.05276}, {'T', 101.04768},
@@ -17,7 +17,7 @@ class prot_mass: public translation {
                 {'C', 103.00919}, {'W', 186.07931}, {'R', 156.10111}, {'G', 57.02146}
             };
         };
-        double calc_mass();
+        long double calc_mass();
 };
 
 
