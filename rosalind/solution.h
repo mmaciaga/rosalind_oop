@@ -20,6 +20,8 @@ class solution {
         void fib();
     // https://rosalind.info/problems/fibd/
         void dead_rabbits();
+    // https://rosalind.info/problems/prtm/
+        void protein_mass();
 };
 
 

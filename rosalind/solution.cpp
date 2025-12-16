@@ -9,6 +9,8 @@
 #include "translation.h"
 #include <string>
 #include <iostream>
+
+#include "proteinMass.h"
 using namespace std;
 
 void solution::c_nt() {
@@ -44,4 +46,9 @@ void solution::fib() {
 void solution::dead_rabbits() {
     deadRabbits dr("/Users/magdamaciaga/Downloads/rosalind_fibd.txt");
     cout << dr.mortal() << endl;
+}
+
+void solution::protein_mass() {
+    proteinMass pm("/Users/magdamaciaga/Downloads/rosalind_prtm.txt");
+    cout << fixed << setprecision(5) << pm.calc_mass() << endl;
 }
