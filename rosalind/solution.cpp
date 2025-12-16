@@ -10,6 +10,7 @@
 #include <string>
 #include <iostream>
 
+#include "hamming.h"
 #include "proteinMass.h"
 using namespace std;
 
@@ -51,4 +52,9 @@ void solution::dead_rabbits() {
 void solution::protein_mass() {
     proteinMass pm("/Users/magdamaciaga/Downloads/rosalind_prtm.txt");
     cout << fixed << setprecision(5) << pm.calc_mass() << endl;
+}
+
+void solution::hamm() {
+    hamming h("/Users/magdamaciaga/Downloads/rosalind_hamm.txt");
+    cout << h.distance() << endl;
 }

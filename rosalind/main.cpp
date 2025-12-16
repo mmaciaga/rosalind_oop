@@ -1,5 +1,10 @@
+#include <iostream>
+#include <ostream>
+
 #include "solution.h"
+#include "hamming.h"
 #include <string>
+
 using namespace std;
 
 int main() {
@@ -12,5 +17,6 @@ int main() {
     s.fib();
     s.dead_rabbits();
     s.protein_mass();
+    s.hamm();
     return 0;
 }

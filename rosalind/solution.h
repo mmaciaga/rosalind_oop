@@ -22,6 +22,8 @@ class solution {
         void dead_rabbits();
     // https://rosalind.info/problems/prtm/
         void protein_mass();
+    // https://rosalind.info/problems/hamm/
+        void hamm();
 };
 
 
