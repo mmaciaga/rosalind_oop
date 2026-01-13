@@ -16,7 +16,7 @@ size_t deadRabbits::mortal() {
             ages[age] = ages[age-1];
         }
 
-        ages[0] = new_rabbits;;
+        ages[0] = new_rabbits;
     }
 
     size_t total = 0;
