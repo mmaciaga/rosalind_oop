@@ -2,9 +2,6 @@
 #include <ostream>
 
 #include "solution.h"
-#include "hamming.h"
-#include <string>
-
 using namespace std;
 
 int main() {
